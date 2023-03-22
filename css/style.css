@@ -1,0 +1,70 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Farsan&display=swap');
+
+
+body{
+    font-size: 22px;
+}
+
+main{
+    font-family: 'Farsan', monospace
+}
+
+p{
+    font-family: 'Farsan', cursive;
+}
+
+.highlight{
+    background-color: darkgoldenrod;
+}
+#pchile{
+    color: rgb(22, 10, 244);
+}
+
+/* ul .li-class{
+    font-size: 40px;
+    color: rgb(245, 0, 0);
+} */
+/* 
+ul{
+    list-style: square;
+    text-align: center;
+    list-style-position: inside;
+    color: rgb(251, 10, 203);
+    font-size: 36px ;
+    font-weight: 700;
+    list-style-image: url(/images/checklist.png);
+}
+ul li:not(:last-child){
+    color: blue;
+} */
+
+a{
+    font-size: 44px;
+    color: rgb(242, 6, 140);
+}
+a;:focus{
+    color: black;
+    }
+    
+a:hover{
+    color: cyan;
+    text-decoration: none;
+}
+
+a:active{
+    color: blue;
+}
+
+/* CSS Disply--- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    padding: 0.5rem;
+}

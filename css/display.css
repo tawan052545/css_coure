@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');import url('https://fonts.googleapis.com/css2?family=Farsan&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.5rem;
+   font-family: Roboto,sans-serif;
+}
+ul{
+    list-style: none;
+    padding: 0.5rem;
+    text-align: right;
+    background-color: black;
+    margin: 0;
+}
+li{
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+li a:hover,li a:focus{
+    text-decoration: underline;
+}
+p{
+    background-color: lightgray;
+}
+.apposite{
+    background-color: gray;
+    color: aliceblue;
+    margin-top: 100px;
+    /* display: inline-block; */
+    padding: 4rem;
+}
