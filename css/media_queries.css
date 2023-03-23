@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    
+    background-color: #475569;
+    background-image: radial-gradient(whitesmoke,#475569);
+    display: flex;
+    flex-direction: column;
+  }
+
+  header, nav, main, footer{
+    display: grid;
+    place-content:center;
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+
+  header, footer{
+    position: sticky;
+    color: whitesmoke;
+    border-bottom: darkslategray;
+  }
+  head{
+    top:0;
+  }
+  nav{
+    background-color: aliceblue;
+    color: black;
+    padding: 0.5rem;
+    border-bottom: 2px black;
+    
+  }
+  main{
+    flex-grow: 1;
+  }
+  footer{
+    bottom: 0;
+  }
+
+/* small */
+@media screen and (min-width: 576px) {
+    body {
+      background-color: blue;
+      background-image: radial-gradient(whitesmoke, blue);
+    }
+    nav {
+      display: none;
+    }
+  }
+  
+  /* media */
+  @media screen and (min-width: 768px) {
+    body {
+      background-color: rgb(243, 222, 183);
+      background-image: radial-gradient(whitesmoke, rgb(97, 65, 4));
+    }
+  }
+  
+  /* large */
+  @media screen and (min-width: 992px) {
+    body {
+      background-color: firebrick;
+      background-image: radial-gradient(whitesmoke, firebrick);
+    }
+  }
+  
+  /* XL */
+  @media screen and (min-width: 1200px) {
+    body {
+      background-color: green;
+      background-image: radial-gradient(whitesmoke, green);
+    }
+  }
+  
+  /* Mobile */
+  @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+    body {
+      background-color: dodgerblue;
+      background-image: radial-gradient(whitesmoke, dodgerblue);
+    }
+  }
+  
